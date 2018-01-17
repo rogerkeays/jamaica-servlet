@@ -1,10 +1,9 @@
 package jamaica.servlet;
 
-import jamaica.core.testing.TestGrouper.NetworkLayer;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
-public class get_cookie_value implements NetworkLayer {
+public class get_cookie_value {
     
     /**
      * Fetch a request cookie by name or return null if it is not found.
